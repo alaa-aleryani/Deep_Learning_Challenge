@@ -4,17 +4,17 @@ With our knowledge of machine learning and neural networks, we'll use the featur
 
 From ***Alphabet Soup’s*** business team, we have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
     <ol> 
-        <li> EIN and NAME &larr; Identification columns </li>
-        <li> APPLICATION_TYPE &larr; Alphabet Soup application type </li>
-        <li> AFFILIATION &larr; Affiliated sector of industry </li>
-        <li> CLASSIFICATION &larr; Government organization classification </li>
-        <li> USE_CASE &larr; Use case for funding </li>
-        <li> ORGANIZATION &larr; Organization type </li>
-        <li> STATUS &larr; Active status </li>
-        <li> INCOME_AMT &larr; Income classification </li>
-        <li> SPECIAL_CONSIDERATIONS &larr; Special considerations for application </li>
-        <li> ASK_AMT &larr; Funding amount requested </li>
-        <li> IS_SUCCESSFUL &larr; Was the money used effectively </li>
+        <li> **EIN** and **NAME** &larr; Identification columns </li>
+        <li> **APPLICATION_TYPE** &larr; Alphabet Soup application type </li>
+        <li> **AFFILIATION** &larr; Affiliated sector of industry </li>
+        <li> **CLASSIFICATION** &larr; Government organization classification </li>
+        <li> **USE_CASE** &larr; Use case for funding </li>
+        <li> **ORGANIZATION** &larr; Organization type </li>
+        <li> **STATUS** &larr; Active status </li>
+        <li> **INCOME_AMT** &larr; Income classification </li>
+        <li> **SPECIAL_CONSIDERATIONS** &larr; Special considerations for application </li>
+        <li> **ASK_AMT** &larr; Funding amount requested </li>
+        <li> **IS_SUCCESSFUL** &larr; Was the money used effectively </li>
     </ol>
 
 
