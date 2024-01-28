@@ -48,7 +48,16 @@ We’ll need to think about how many inputs there are before determining the num
 
 
 ### Step 3: Optimize the Model
-
+Using our knowledge of `TensorFlow`, optimize our model to achieve a target predictive accuracy higher than 75%. <br>
+Use any or all of the following methods to optimize your model:
+* Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
+    * Dropping more or fewer columns.
+    * Creating more bins for rare occurrences in columns.
+    * Increasing or decreasing the number of values for each bin.
+    * Add more neurons to a hidden layer.
+    * Add more hidden layers.
+    * Use different activation functions for the hidden layers.
+    * Add or reduce the number of epochs to the training regimen.
 
 ### Step 4: Write a Report on the Neural Network Model
 For this part of the assignment, write a report on the performance of the deep learning model created for ***Alphabet Soup***. <br>
