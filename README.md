@@ -20,7 +20,7 @@ From ***Alphabet Soup’s*** business team, we have received a CSV containing mo
 
 ## Instructions:
 
-### Step 1: Preprocess the Data
+### Step 1: Preprocess the Data [Click Here](https://github.com/alaa-aleryani/Deep_Learning_Challenge/blob/main/Alphabet_Soup/AlphabetSoupCharity.ipynb)
 Using our knowledge of Pandas and scikit-learn’s `StandardScaler()`, we’ll need to preprocess the dataset. This step prepares us for Step 2, where we'll compile, train, and evaluate the neural network model.
 
 Follow the instructions to complete the preprocessing steps:
@@ -33,7 +33,7 @@ Follow the instructions to complete the preprocessing steps:
 7. Split the preprocessed data into a features array, `X`, and a target array, `y`. Use these arrays and the `train_test_split` function to split the data into training and testing datasets.
 8. Scale the training and testing features datasets by creating a `StandardScaler` instance, fitting it to the training data, then using the `transform` function.
 
-### Step 2: Compile, Train, and Evaluate the Model
+### Step 2: Compile, Train, and Evaluate the Model [Click Here](https://github.com/alaa-aleryani/Deep_Learning_Challenge/blob/main/Alphabet_Soup/AlphabetSoupCharity.ipynb)
 Using our knowledge of `TensorFlow`, we’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an ***Alphabet Soup-funded organization*** will be successful based on the features in the dataset. <br> 
 We’ll need to think about how many inputs there are before determining the number of neurons and layers in our model. Once we’ve completed that step, we’ll compile, train, and evaluate our binary classification model to calculate the model’s loss and accuracy.
 1. Create a neural network model by assigning the number of input features and nodes for each layer using `TensorFlow` and `Keras`.
@@ -47,7 +47,7 @@ We’ll need to think about how many inputs there are before determining the num
 9. Save and export the results to an HDF5 file. Name the file `AlphabetSoupCharity.h5`.
 
 
-### Step 3: Optimize the Model
+### Step 3: Optimize the Model [Click Here](https://github.com/alaa-aleryani/Deep_Learning_Challenge/blob/main/Alphabet_Soup/AlphabetSoupCharity_Optimization.ipynb)
 Using our knowledge of `TensorFlow`, optimize our model to achieve a target predictive accuracy higher than 75%. <br>
 Use any or all of the following methods to optimize your model:
 * Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
@@ -59,7 +59,7 @@ Use any or all of the following methods to optimize your model:
     * Use different activation functions for the hidden layers.
     * Add or reduce the number of epochs to the training regimen.
 
-### Step 4: Write a Report on the Neural Network Model
+### Step 4: Write a Report on the Neural Network Model  [Click Here](https://github.com/alaa-aleryani/Deep_Learning_Challenge/blob/main/Alphabet_Soup/NeuralNetworkModel_Report.md)
 For this part of the assignment, write a report on the performance of the deep learning model created for ***Alphabet Soup***. <br>
 The report should contain the following:
 1. **Overview** of the analysis: Explain the purpose of this analysis.
