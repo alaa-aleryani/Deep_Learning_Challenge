@@ -1,6 +1,6 @@
 # Neural Network Model Report
 
-1. **Overview** 
+1. **Overview:** <br> 
     The nonprofit foundation ***Alphabet Soup*** wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. So, we created a deep-learning neural networks, and used the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by ***Alphabet Soup***.
 
 2. **Results:** 
@@ -20,6 +20,7 @@
          In the first attempt, I dropped  fewer columns. (Keeping the `NAME` column from the orignial data). In the second attempt, I added more neurons to a hidden layer (Increasing hidden layer 1 nodes from 80 to 100, increasing hidden layer 2 nodes from 30 to 50), and I added more hidden layers. (Adding a third hidden layer with 25 nodes). In the last attempt, I used the same activation function for the hidden layers.(Change activation function from `relu` to `sigoid` for all hidden layers), and reduced the number of epochs to the training regimen from 100 to 50.
 
 
-3. **Summary:** Overall the best accuracy result happened when I kept the `NAME` column, reduced the number of epoches from 100 to 50 and keeping all the activiation function for all hidden layers the same. These steps increased the accuracy score from 72% in the base model to 74%. Maybe if I did a fourth attempt to optimize the model, I would remove the `NAME` and `EIN` columns, let the number of epoches be 50, decreasing the number of nodes and adding a third hidden layer. For now, I would recommend using the last model that I did.
+3. **Summary:** <br>
+    Overall the best accuracy result happened when I kept the `NAME` column, reduced the number of epoches from 100 to 50 and keeping all the activiation function for all hidden layers the same. These steps increased the accuracy score from 72% in the base model to 74%. Maybe if I did a fourth attempt to optimize the model, I would remove the `NAME` and `EIN` columns, let the number of epoches be 50, decreasing the number of nodes and adding a third hidden layer. For now, I would recommend using the last model that I did.
 
 
